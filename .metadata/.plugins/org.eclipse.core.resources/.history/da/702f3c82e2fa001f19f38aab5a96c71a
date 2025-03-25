@@ -1,0 +1,18 @@
+package br.com.daniel;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class testeTest {
+
+	@Test
+	void test() {
+		System.out.println("Primeiro teste executado!");
+	}
+	@Test
+	void testeSoma() {
+	System.out.println("Teste não executado");
+	}
+
+}

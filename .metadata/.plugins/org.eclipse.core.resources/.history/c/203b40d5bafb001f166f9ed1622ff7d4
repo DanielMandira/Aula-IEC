@@ -1,0 +1,17 @@
+package teste.maven.aula;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SimpleMathTest {
+	
+	@Test
+	void testSoma() {
+		SimpleMath math = new SimpleMath();
+		Double actual = math.sum(15.8D, 7.8D);
+		double expected = 23.6D;
+		assertEquals(expected, actual);
+	}
+
+}

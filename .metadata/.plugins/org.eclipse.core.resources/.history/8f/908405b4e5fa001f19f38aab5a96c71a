@@ -1,0 +1,23 @@
+package teste.maven.aula;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class junitJavaTest {
+
+	@Test
+	void test() {
+		System.out.println("Not yet implemented");
+	}
+	
+	@Test
+	void testMult() {
+		var numero1 = 10;
+		var numero2 = 8;
+		var result = numero1 * numero2;
+		assertEquals(80, result);
+		
+	}
+
+}
